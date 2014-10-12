@@ -29,17 +29,22 @@
 
   "private": true,
 
-  /*"main": "./core/index",*/
+  "_main": "./core/index",
+
   "scripts": {
       "start": "node index",
-      /*"test": "./node_modules/.bin/grunt validate --verbose"*/
-      /*"build": "bin/build.js",
-      "postinstall": "bower install",
-      "pretest": "bin/build.js",
-      "test": "bin/run-tests.js",
-      "start": "broccoli serve"*/
+      
+      "_test": "./node_modules/.bin/grunt validate --verbose"
+      
+      "_build": "bin/build.js",
+      "_postinstall": "bower install",
+      "_pretest": "bin/build.js",
+      "_test": "bin/run-tests.js",
+      "_start": "broccoli serve"
   },
-  /*"bin" : {},*/
+  
+  "_bin" : {},
+  
   "engines": {
       "node": ">=0.10.8"
   },
