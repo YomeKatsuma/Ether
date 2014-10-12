@@ -1,0 +1,55 @@
+{
+  "name"        : "Ether",
+  "version"     : "0.1.0",
+  "description" : "Just a web platform.",
+  "author"      : {
+    "name"  : "Yome Katsuma (Guillaume Chata-Simoni)",
+    "email" : "yome.katsuma@gmail.com"
+  },
+  "readmeFilename" : "README.md",
+  "homepage"    : "http://www.yome.in/Ether",
+  "keywords"    : [
+      "Ether",
+      "web",
+      "blog",
+      "cms"
+  ],
+  "repository"  : {
+      "type": "git",
+      "url": "git://github.com/YomeKatsuma/Ether.git"
+  },
+  "bugs"        : "https://github.com/YomeKatsuma/Ether/issues",
+  "contributors": "https://github.com/YomeKatsuma/Ether/graphs/contributors",
+  "licenses"    : [
+      {
+          "type": "MIT",
+          "url": "https://raw.github.com/YomeKatsuma/Ether/master/LICENSE"
+      }
+  ],
+
+  "private": true,
+
+  /*"main": "./core/index",*/
+  "scripts": {
+      "start": "node index",
+      /*"test": "./node_modules/.bin/grunt validate --verbose"*/
+      /*"build": "bin/build.js",
+      "postinstall": "bower install",
+      "pretest": "bin/build.js",
+      "test": "bin/run-tests.js",
+      "start": "broccoli serve"*/
+  },
+  /*"bin" : {},*/
+  "engines": {
+      "node": ">=0.10.8"
+  },
+
+
+
+
+  "dependencies": {
+    "express": "~4.x"
+  },
+  "devDependencies": {
+  }
+}

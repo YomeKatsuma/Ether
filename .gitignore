@@ -1,0 +1,7 @@
+npm-debug.log
+x.sublime-project
+x.sublime-project.sublime-workspace
+node_modules
+test-app
+.DS_Store
+*.old
