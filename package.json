@@ -34,7 +34,7 @@
   "scripts": {
       "start": "node index",
       
-      "_test": "./node_modules/.bin/grunt validate --verbose"
+      "_test": "./node_modules/.bin/grunt validate --verbose",
       
       "_build": "bin/build.js",
       "_postinstall": "bower install",
@@ -44,7 +44,7 @@
   },
   
   "_bin" : {},
-  
+
   "engines": {
       "node": ">=0.10.8"
   },
